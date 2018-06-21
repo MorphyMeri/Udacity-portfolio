@@ -1,0 +1,85 @@
+*{
+margin: 0;
+padding: 0;
+width: 100%;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   height: 100%;
+   width: 100%;
+    
+}
+/* Header Section*/
+header{
+    height: 100px;
+}
+.h-img{
+    width: 40%;
+    float: left;
+    max-width: 100%;
+}
+.h-name{
+    width: 50%;
+    float: right;
+    padding-right: 10px;
+    padding-top: 35px;
+    font-size: 14px;
+} 
+hr{
+    display: block;
+    border: 2px solid #7d97ad;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+/*container*/
+.c-img{
+    position: relative;
+    margin:auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%
+}
+/*socials edit*/
+.socials{
+    width: 100%;
+    height: 70px;
+    padding-top: 30px;
+    padding-left: 90px;  
+}
+.so-edi{
+    width: 13%;
+    margin:auto;
+    float: left;
+    text-decoration: none;
+}
+.about-me{display: block;width: 100%;padding-bottom: 20px;text-align: justify;line-height: 25px;word-spacing:2px;overflow: hidden; }
+.p-img{height: 200px;
+width: 300px;}
+
+@media screen and (min-width:500px) and (max-width:700px){
+    .container{width:500px;
+    margin: auto;}
+    .profile{width: 40%;height: auto;}
+    .c-img{position: relative;
+        margin:auto;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%}
+    .socials{width:100%;padding-left: 15px;}
+    .so-edi{margin-right:10px;size: 10px;}
+    .about-me{display: block;width:50%;height: auto;padding-top: 10px;line-height: 20px;word-spacing: 1px;text-align: justify;float: left;}
+    .p-text{padding-top: 20px;line-height: 20px;word-spacing: 1px;text-align: justify;}
+}
+@media screen and (min-width:701px){
+    .container{width: 700px;
+    margin: auto}
+    header{height: 130px;}
+    .c-img{position: relative;margin: auto;height: 170px;width: 170px;}
+    .profile{width: 40%;height: auto;}
+    .socials{padding-left: 50px;}
+    .about-me{display: block ;width:60%;height: auto;padding-top: 10px;line-height: 35px;word-spacing: 2px;text-align: center;float: right;}
+}
+
+
