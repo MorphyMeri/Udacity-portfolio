@@ -54,7 +54,6 @@ hr{
     float: left;
     text-decoration: none;
 }
-/*text*/
 .about-me{display: block;width: 100%;padding-bottom: 20px;text-align: justify;line-height: 25px;word-spacing:2px;overflow: hidden; }
 .p-img{height: 200px;
 width: 300px;}
